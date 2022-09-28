@@ -17,4 +17,8 @@ Database.
 
 - AvTech Support will log all the Errors produced and will retain them every first date of the month for investigation uses and upgrading system. It'll then be deleted from the Server itself.
 
+- If found abusing AvTech Support's Features, your Server will be blacklisted from using AvTech Support. This is appealable Depending on the circumstances.
+
+- When joining the Support Server, you're required to follow the rules present. Please have a look at the message given by the Bot!
+
 ### Last Modified: 28th September 2022
