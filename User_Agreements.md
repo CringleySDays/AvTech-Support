@@ -15,4 +15,6 @@ Database.
 
 - You also agree to keep up to Data with the User Agreement if it needs to be changed
 
-### Last Modified: 10th September 2022
+- AvTech Support will log all the Errors produced and will retain them for one month for investigation uses and upgrading system
+
+### Last Modified: 28th September 2022
