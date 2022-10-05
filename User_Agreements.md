@@ -23,4 +23,4 @@ Database.
 
 - Premium Users **are** required to join the Spiral Ash Bots Server in order to get registered with AvTech Support's Premium Feature. AvTech Support will be checking the Premium Role in the Server to give you the Premium Role.
 
-### Last Modified: 28th September 2022
+### Last Modified: 5th October 2022
