@@ -1,3 +1,45 @@
+# ***AvTech Support Update Version 0.0.2***
+
+### **Features**
+
+- Reworked most of the Embed which will include Server PFP as the Icon and Users PFP as the thumbnail giving more of a aesthetic taste
+
+- AvTech Support's status will change every 10 seconds or so counting how many Server it serves
+
+- Verification Button now can be enabled Globally. You can set as much Buttons as you want, however there's a limit of 2 Buttons per Server. `Soon there'll be an Option to get more via Premium`
+
+    > For **Testing Reasons**, this is not available to everyone however only for Few Servers which you'll get Information sent by the Bot in the Bot Logging Channel that you have setup. If this does not exist, you won't be able to Test the New Feature
+
+- [ `/bot_info` ] will now Display if your Server is registered with AvTech Support
+
+- Support Team at Spiral Ash Bots can now request to View Information about a Certain Server and the User has to be an Admin of the Server or the Server Owner to request to view the Permission
+
+    > Only Developer of AvTech Support can request to view **Any Server Information** without the User requesting having to fit the Criteria
+
+- [ `server_info` ] - Support of Spiral Ash Bots can use to see the Permission of the Bot in other Servers.
+
+    > AvTech Support will see if the User is the Server Owner or Server Admin before sending in Data
+
+- Fixed where Reactions of Voting for a Suggestion was not being added to Embed Messages in the Required Server
+
+- Fixed few errors in the Developer Commands that didn't displayed the Number of Cogs enabled 
+
+- Detailed Information on how many Cogs are and are not loaded for Developers
+
+- [ `/announce` ] **Command for Developers Only** now has the ability to publish the Announced Message in Announcement Channels
+
+- Welcome Message when AvTech Support joins a Server has been udpated that it'll inform the Owner to join the Spiral Ash Bots to check if the Server is eligible for Premium Features due to the Role Checking directly from the Spiral Ash Bots
+
+- Better Checks for Text Channels to send the message when the AvTech Support joins the Server with slight Performance Improvement 
+
+- Added in an Option to Change Support Cateogory in [ `/update_settings` ] *Nearly forgot about this*
+
+### **Bugs and Typos**
+
+- Patched the Error when if you accidentally delete the Category, it won't create ticket at all
+    
+    > This'll instead create the ticket channel at the highest heirachy making it the first thing that is visible. `This can be changed as soon as you create a Cateogory and set it up with AvTech Support`
+
 
 ------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.1***
