@@ -1,3 +1,20 @@
+# ***AvTech Support Update Version 0.0.2[A]***
+
+### **Features**
+
+- Changed [ `/setup` ] option from ticket -> ticket_message_channel
+
+- Updated [ `/help` ] to use the latest changed settings, *Will be patching any other information that are not up to date* 
+
+### **Bugs and Typos**
+
+- Patched [ `/update_settings` ] not updating settings as required and rewrote the system to be efficient however using more RAM as a consequence
+
+- Patched error when joining Server, it won't send in the Welcome Message
+
+- Patched [ `/setup` ] being broken and updating settings
+
+------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.2***
 
 ### **Features**
