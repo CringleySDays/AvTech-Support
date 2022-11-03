@@ -1,3 +1,52 @@
+
+------------------------------------------------------------------------
+# ***AvTech Support Update Version 0.0.3***
+
+### **Features**
+
+- Efficient information checking with little bit of improvemance
+
+- Changed AvTech Support Status to Watching *Number of Servers* Servers
+
+- Added in more information to why people would get timed-out due to an Alpha Feature.
+
+- Detailed Error Message and possible solutions in why the Command didn't work
+
+- Server Admin Role and Server Owners can manage anyone's ticket include their own without any issues [ `Credits to: Felix.#2763` ]  *[  `Feature Request` ]*
+
+- Every Announcement made using [ `/announce` ] by Developer will be sent to every Server Bot Logging Channel
+
+    > No one will be pinged unless for important announcement where **@everyone** will be Pinged in the Bot Logging Channel that you set it.
+
+    ```yaml
+    I suggest that you give AvTech Support @everyone @here Permission in case there's an important Announcement that needs to be made that needs to be alerted.
+    ```
+
+- Another update for Timing out Users that first join the Spiral Ash Bots Server, this time you'll be timed out for only 5 minutes, if you get the Verification Code wrong, you'll get timed out for 15 minutes. 
+
+- [ `/help` ] when sent in a Drop Down Menu, other Discord Members can interact with it as the Help Embeds are being sent privately
+
+- [ `/help` ] page number button where first it was disabled *you weren't able to click*, now you can navigate to any part of the page saving you a lot of hassle!
+
+- Simplified some of the Error Embeds to being simple
+
+- If you have an active ticket but you can't View it, it'll automatically delete the information, however you'll have to click the Button again to make a ticket
+
+- Improved description [ `/help` ] to better reliable reading as it kind of mis-leads the user able to use commands
+
+
+### **Bugs and Typos**
+
+- Patched [ `/help` ] navigation left button not displaying emoji at all
+
+- Fixed wrong alignment in [ `/bot_info` ] for AvTech Support's Permission Displaying
+
+- Patched bug that occured in the Missing Permissions Error Handler
+
+- Patched wrong uptime information after 1 week of constant running due to Discord Reconnecting and firing events
+
+
+------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.2[A]***
 
 ### **Features**
