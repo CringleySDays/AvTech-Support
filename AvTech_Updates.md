@@ -1,3 +1,22 @@
+# ***AvTech Support Update Version 0.0.3[A]***
+
+### **Features**
+
+- AvTech Support status will also include the number of active tickets
+
+
+### **Bugs and Typos**
+
+- Patched [ `/server_settings` ], it should work life a charm now
+
+- Patched [ `/server_info` ] for Support Team and it should also work now as it was affected by the patch above
+
+- Patched [ `/user_info` ], forgot to revert a change in it :D
+
+- Patched all Ticket Features from not being able to be used by Server Owner and Server Admins [ `That are configured to AvTech Support` ]
+
+- Fixed typos in [ `/bot_info` ] on Version, Permissions, and System Version
+
 
 ------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.3***
