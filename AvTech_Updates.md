@@ -17,6 +17,8 @@
 
 - Fixed typos in [ `/bot_info` ] on Version, Permissions, and System Version
 
+- Patched important bug where it'd ping @everyone in Bot Logging Channel when not required
+
 
 ------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.3***
