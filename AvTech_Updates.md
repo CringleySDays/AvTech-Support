@@ -1,3 +1,24 @@
+# ***AvTech Support Update Version 0.0.3[B]***
+
+### **Features**
+
+- Improved member count for Developers in [ `/development` ]
+
+
+### **Bugs and Typos**
+
+- Patched Unknown Error Message when Ticket Information has been deleted
+
+- If AvTech Support doesn't have perms to delete a ticket channel, it won't disable the ticket buttons at all.
+    > It should not error out because it deleted the data already
+
+
+### **Notices**
+
+- Verification Feature is close to finishing and will be given to few Members for testing. If you're interested in testing the Verification System before it's going out to public, Let me know!
+
+
+------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.3[A]***
 
 ### **Features**
