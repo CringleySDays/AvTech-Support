@@ -1,3 +1,11 @@
+------------------------------------------------------------------------
+# ***AvTech Support Update Version 0.0.3[C]***
+
+### **Bugs and Typos**
+
+- Patched a Bug where Ticket Buttons wouldn't work when Admins or Ticket Support members would handle a ticket *that are configured to AvTech Support*
+
+------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.3[B]***
 
 ### **Features**
