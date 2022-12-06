@@ -4,7 +4,7 @@
 
 - When AvTech Support joins the Server, it’ll collect the following Data it needs: Server ID to make a Dataset for that Server
 
-- When you use [ `/setup` ] , AvTech Support will gather Data that it only asks for which are Bot Logging Channel, Ticket Channel, Ticket Helper Role, Admin Role, Support Category (Optional). It’ll also save the message ID of the Ticket Embed message. It’ll create a category (if neeeded) and save the category ID in the Database.
+- When you use [ `/main setup` ] , AvTech Support will gather Data that it only asks for which are Bot Logging Channel, Ticket Channel, Ticket Helper Role, Admin Role, Support Category (Optional). It’ll also save the message ID of the Ticket Embed message. It’ll create a category (if neeeded) and save the category ID in the Database.
 
 - When any users in the Server create a ticket, it’ll save the following Data: User ID of who created the Ticket, Ticket Channel ID, Server ID
 
@@ -21,6 +21,6 @@ Database.
 
 - When joining the Support Server, you're required to follow the rules present. Please have a look at the message given by the AvTech Support.
 
-- Premium Users **are** required to join the Spiral Ash Bots Server in order to get registered with AvTech Support's Premium Feature. AvTech Support will be checking the Premium Role in the Server to give you the Premium Role. If a Feature is related to a Server, it's the Server Owner that is **required** to join the Spiral Ash Bots Server for confirmation that you have indeed paid for a Premium Feature.
+- Those looking forward to getting Premium **are required** to join the Support Server to get role respective to their Premium Package for validation
 
-### Last Modified: 7th October 2022
+### Last Modified: 6th December 2022
