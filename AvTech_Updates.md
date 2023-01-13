@@ -1,3 +1,96 @@
+
+------------------------------------------------------------------------
+# ***AvTech Support Update Version 0.0.4***
+
+### **Features**
+
+- Rewrote [ `/server_settings` ] to fit with the new features
+
+- Simplified work on [ `server_info` ] for AvTech Support Members
+
+- Support module has been fully configured for Optimal Performance
+
+- When User randomly leaves a Server, all information will be deleted which will cause Error when Deleting Tickets
+    
+- Embeds that are public will be logged in the Logging System itself
+
+- Bringing a User in a ticket is easier now as UI will pop up which you're able to Enter in a User name and should pop up.
+
+- Bringing a User Ticket Feature will now also be able to remove a User if they're in the Ticket Channel Permissions
+
+- [ `/server_settings` ] should now display Server's Name, Profile picture or Default picture, and User that used the command profile picture / GIF
+
+- Ticket Button Features have now gained bit more stability in case if Server Information was not found in the database which would have caused it to break
+    
+    > After the Server Owner re-configures the Server to AvTech Support, the Tickets should work normally unless further stated by the Developers *Data loss which is very unlikely but can happen*
+
+- [ `/server_info` ] will display the latest information for a Server that is requested
+
+- Reworked Embed Message that gets sent when it is invited to a Server
+
+- Ticket Channel will now have a nice emoji next to them for aesthetic including Category Channel
+
+- Renamed [ `/setup` ] --> [ `/main setup` ]
+
+- Renamed [ `/update_settings` ] --> [ `/main update_settings` ]
+
+    > Reasons for why this has changed is because of the New Verification System Setup which might confuse people. This should be a stable change, if not Please Open a Ticket and Explain in detail on how you got the issue 
+
+- Improved Stability for Creating Tickets, with improved Data Collection from Discord itself
+
+- Ticket Message Pins will now include the User's Avatar, Server Icon + Name, User Input Message for Faster Response time in aiding the User's issues 
+
+    > This all depends on the Ticket Support Users if they understand the issue and able to assist or their activity. We cannot guarantee that the User will get a response in a timely manner
+
+- [ `/error_help` ] new command which will provide more information in a pleasing manner
+
+    > We're hoping to make Users be able to solve issues that are displayed by AvTech Support with better solutions depending on the Error and better aesthetics
+
+- Renamed [ `/close` ] --> [ `/support close` ]
+
+- Renamed [ `/server_info` ] --> [ `/support server_info` ]
+
+- Renamed [  `/announce` ] --> [ `/developer announce` ]
+
+- Renamed [ `/development` ] --> [ `/developer development` ]
+
+- Renamed [ `/bot_info` ] --> [ `/bot info` ]
+
+- [ `/bot permission` ] new command that will show AvTech Support's TextChannel Permission
+
+- [ `/developer announce` ] now is able to not Log the Announcement to the Bot's Logging Channel configured to AvTech Support
+
+- Welcome Message when AvTech Support joins a Server has been improved to be more aesthetically pleasing
+
+- When getting Data about a User, Server, Channel or Category, it'll be able to find Data via fetching if Data is not cached
+
+- Reworked how Error Embeds for the Support Team looked once again to fit the aesthetic theme that is currently being deployed within AvTech Support
+
+- Ticket Embeds now has Icon and Server name for further information + to make it personal
+
+- [ `/main setup` ] now follows the new Discord UI for configuring Channels to make it less clunky and fluid
+
+- Renamed [ `/review_suggestion` ] --> [ `/developer review_suggestion` ]
+
+- [ `/developer review_suggestion` ] now has another option to react to Features that has been finished
+
+
+### **Bugs and Typos**
+
+- Patched a Bug that didn't allow Admin Roles *Configured to AvTech Support* to manage tickets that they're supposed to manage
+
+- Patched a Bug where the information about a Server will be sent privately for Developers on Users when not using a force to display information
+
+- Patched Changing Status not showing Number of Tickets that are active
+
+
+### **Notices**
+
+- I'm absolutely aware that 0.0.4 is a very exciting update that is being released which will help in stablising operations, bringing improved features and easy to use. Every updates or so, the Error Solutions will be changed to keep up with the better solutions as we review the inputs if there's an Unknown Error displayed.
+
+- Whilst this update will take a long time, this may last on a span for 2 months and the other updates will arrive very slowly as I'm being forced to focus on School Project that I need to give in my best. 
+
+-
 ------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.3[C]***
 
@@ -5,6 +98,7 @@
 
 - Patched a Bug where Ticket Buttons wouldn't work when Admins or Ticket Support members would handle a ticket *that are configured to AvTech Support*
 
+-
 ------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.3[B]***
 
@@ -18,6 +112,7 @@
 - Patched Unknown Error Message when Ticket Information has been deleted
 
 - If AvTech Support doesn't have perms to delete a ticket channel, it won't disable the ticket buttons at all.
+
     > It should not error out because it deleted the data already
 
 
@@ -25,7 +120,7 @@
 
 - Verification Feature is close to finishing and will be given to few Members for testing. If you're interested in testing the Verification System before it's going out to public, Let me know!
 
-
+-
 ------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.3[A]***
 
@@ -48,7 +143,7 @@
 
 - Patched important bug where it'd ping @everyone in Bot Logging Channel when not required
 
-
+-
 ------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.3***
 
@@ -95,7 +190,7 @@
 
 - Patched wrong uptime information after 1 week of constant running due to Discord Reconnecting and firing events
 
-
+-
 ------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.2[A]***
 
@@ -113,6 +208,7 @@
 
 - Patched [ `/setup` ] being broken and updating settings
 
+-
 ------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.2***
 
@@ -156,7 +252,7 @@
     
     > This'll instead create the ticket channel at the highest heirachy making it the first thing that is visible. `This can be changed as soon as you create a Cateogory and set it up with AvTech Support`
 
-
+-
 ------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.1***
 
