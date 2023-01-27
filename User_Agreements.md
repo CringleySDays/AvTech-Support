@@ -4,7 +4,7 @@
 
 - When AvTech Support joins the Server, it’ll collect the following Data it needs: Server ID to make a Dataset for that Server
 
-- When you use [ `/main setup` ] , AvTech Support will gather Data that it only asks for which are Bot Logging Channel, Ticket Channel, Ticket Helper Role, Admin Role, Support Category (Optional). It’ll also save the message ID of the Ticket Embed message. It’ll create a category (if neeeded) and save the category ID in the Database.
+- When you use [ `/main setup` ] , AvTech Support will gather Data that it only asks for which are Bot Logging Channel, Ticket Channel, Ticket Helper Role, Admin Role, Support Category (Optional), Custom Ticket Message (Optional). It’ll also save the message ID of the Ticket Embed message. It’ll create a category (if neeeded) and save the category ID in the Database.
 
 - When any users in the Server create a ticket, it’ll save the following Data: User ID of who created the Ticket, Ticket Channel ID, Server ID
 
@@ -23,4 +23,8 @@ Database.
 
 - Those looking forward to getting Premium **are required** to join the Support Server to get role respective to their Premium Package for validation
 
-### Last Modified: 6th December 2022
+- [ `/verification setup` ] will store the Verification Channel, Verified and Unverified Role, Custom Verification Message, Status of Verification 
+
+-  When a Server invites or kicks AvTech Support, information will be gathered and stored permanently for security measures
+
+### Last Modified: 27th January 2023
