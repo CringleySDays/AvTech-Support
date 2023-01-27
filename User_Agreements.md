@@ -25,6 +25,6 @@ Database.
 
 - [ `/verification setup` ] will store the Verification Channel, Verified and Unverified Role, Custom Verification Message, Status of Verification 
 
--  When a Server invites or kicks AvTech Support, information will be gathered and stored permanently for security measures
+-  When a Server invites or kicks AvTech Support, information will be gathered and stored permanently for security measures such as Server Owner, ID, Invite, Member Count
 
 ### Last Modified: 27th January 2023
