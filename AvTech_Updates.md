@@ -1,4 +1,13 @@
+# ***AvTech Support Update Version 0.0.4[A]***
 
+### **Bugs and Typos**
+
+- Patched [ `/bot info` ] not working for some servers 
+    > If the issue comes again, kick the bot and invite it back again. It should work then 
+
+- Patched Ticket Buttons not working for Server Owners and Admin Role configured to AvTech Support 
+
+- 
 ------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.4***
 
@@ -33,13 +42,11 @@
 - Renamed [ `/setup` ] --> [ `/main setup` ]
 
 - Renamed [ `/update_settings` ] --> [ `/main update_settings` ]
-
     > Reasons for why this has changed is because of the New Verification System Setup which might confuse people. This should be a stable change, if not Please Open a Ticket and Explain in detail on how you got the issue 
 
 - Improved Stability for Creating Tickets, with improved Data Collection from Discord itself
 
 - Ticket Message Pins will now include the User's Avatar, Server Icon + Name, User Input Message for Faster Response time in aiding the User's issues 
-
     > This all depends on the Ticket Support Users if they understand the issue and able to assist or their activity. We cannot guarantee that the User will get a response in a timely manner
 
 - [ `/error_help` ] new command which will provide more information in a pleasing manner
@@ -112,7 +119,6 @@
 - Patched Unknown Error Message when Ticket Information has been deleted
 
 - If AvTech Support doesn't have perms to delete a ticket channel, it won't disable the ticket buttons at all.
-
     > It should not error out because it deleted the data already
 
 
@@ -219,7 +225,6 @@
 - AvTech Support's status will change every 10 seconds or so counting how many Server it serves
 
 - Verification Button now can be enabled Globally. You can set as much Buttons as you want, however there's a limit of 2 Buttons per Server. `Soon there'll be an Option to get more via Premium`
-
     > For **Testing Reasons**, this is not available to everyone however only for Few Servers which you'll get Information sent by the Bot in the Bot Logging Channel that you have setup. If this does not exist, you won't be able to Test the New Feature
 
 - [ `/bot_info` ] will now Display if your Server is registered with AvTech Support
@@ -249,7 +254,6 @@
 ### **Bugs and Typos**
 
 - Patched the Error when if you accidentally delete the Category, it won't create ticket at all
-    
     > This'll instead create the ticket channel at the highest heirachy making it the first thing that is visible. `This can be changed as soon as you create a Cateogory and set it up with AvTech Support`
 
 -
@@ -261,7 +265,6 @@
 - [ `/help` ] displays all the commands that can be used by the user. Support Users from Spiral Ash Bot can use their commands in any Server AvTech Support is in
 
 - [ `/setup` ] can only be used by the Server Owner once when AvTech Support joins the Server
-    
     > This'll send a Welcome Message informing the Server Owner on what AvTech Support can do
 
 - [ `/update_settings` ] can be used by the Owner Only. *This will change in the later updates that Admins will be able to do the same thing* and will update certain settings
