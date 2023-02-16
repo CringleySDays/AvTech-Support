@@ -1,3 +1,146 @@
+
+------------------------------------------------------------------------
+# ***AvTech Support Update Version 0.0.5***
+
+### **Features**
+
+- All the Settings should have Emojis that are more related to what they are 
+
+- [ `/verification setup` ] new command to Setup Verification System for AvTech Support that will follow a setup concept similar to [ `/main setup` ]
+
+- [ `/verification update_settings` ] new command that updates Verification System that follows a similar concept as [ `/main update_settings` ]
+
+- [ `/verification status_change` ] are for Admins and Server Owners that will change Verification Status for the Server either disabling Users from verifying
+or not 
+
+-  [ `/bot info` ] now will be able to see if your Server is Configured to the Verification System
+    > To use Verification System, you **must** configure your Server to AvTech Support using [ `/main setup` ]
+
+- [ `/server_settings` ] will also display Verification System Settings if you have it Configured to your Server
+
+- During User verifying, they'll receive message in their DMs and a similar message will be sent in the Logging Channel for logging activities along with the Correct Verification Answer 
+
+- Custom Message Informtion for Verification Message as well which include either Embed or Text Message Choice
+
+- Maximum of 10 minutes for 60 users to join the Server
+    > To increase the User Limit and Time Limit, you'll need to have Server Premium which will be available within the coming updates
+
+- Server Premium also includes where if the User inputs the Wrong Verification Code, they'll get timed out for 15 minutes   
+    > Not customisable yet, but will be available in the coming updates
+
+- Added back the Welcome Message when you join the Official Support Server
+
+- More RAM optimisation have been made throughout with built in RAM handler 
+
+- TOS has been updated
+
+- [ `/bot permission` ] now includes Category Channels where it'll check the Permission of that as well 
+
+- Buttons used for updating Settings using [ `/main update_settings` ] or configuring settings using [ `/main setup` ] now have increased timeout of 20 - 30 seconds
+
+- Renamed [ `/delete_user_info` ] to [ `/delete_ticket_info` ] so that the functionality of the command makes sense 
+
+- Custom Information for Ticket Embed Creator has been changed to where if you Enter in None for one of the Boxes, that field won't be shown on the Ticket Embed
+    > If None is Entered in both of the boxes, the field won't show 
+
+- New Activity Status has been added where the Number of Total Servers that the Bot is in and the Number of Servers Configured will be displayed
+
+- Added in Loggings for when you change the Custom Ticket Information
+
+- Added minimum of 5 characters to be included when creating a Ticket even if the Box is required to fill 
+
+- Users with Administrator Permission can now use  [ `/main setup` ] | [ `/verification setup` ]
+
+- Bot Status should include Number of Servers Configured to the Verification System
+
+- [ `/delete_ticket_info` ] should be dynamic now [ *`Previously it was but now it is more stable`* ]
+    > If the Ticket Channel is not found or the Bot doesn't have permission, the Ticket Information will be deleted anyway
+
+    -
+
+    > If the Bot has permission and Ticket Channel is present, it'll send in 2 Options where you can either create a transcript and delete the Ticket or delete the Ticket **only**
+
+- Non Premium Servers have a default of 2 Retries for Verification Code in case they aren't able to guess it otherwise 3 Tries
+    > Instead of Sending Messages that can't be Deleted, due to how the Feature now works, hidden | ephemeral messages will be sent when interacting with the Verification System
+
+- Changed the Look of the Verification Embed sent in Users DM during the Verification Process for a more Polished Look
+
+- When Updates arrive, it'll ping the Server owner in Every Server or when Important Announcement from the Bot needs to be Reached out
+
+- Emojis have been changed for some of the Roles and Information
+
+- Removed Fastforward Left and Right for Help Command, since there is a Page Button to input in, Middle Button *Gray Colour Button* to quickly go to the Page Destination
+
+- [ `/help` ] command now has improvements in performance in being reliable to use
+
+- [ `/help` ] Page Navigation Button now has improved Stablisation where it'll only take inputs from the Channel you ran the Command from
+
+- [ `/help` ] has been Updated for the New Commands, Verification System that has been added in 
+
+- [ `/help` ] will now show all the commands that can be used within that Category...
+    > [ `/main update_settings` ] used by Admins, Server Owner and Administrator Perms and so on
+
+- [ `/developer announcement` ] has been rewritten where it'll ping the Server Owner if the Option has been picked instead of pinging @everyone
+
+
+### **Bugs and Typos**
+
+- Fixed Typo in [ `/main setup` ] when giving UI to set a Logging Channel
+
+- Patched an Important Bug where a check wouldn't be made when Updating Settings in [ `/main update_settings` ] which would possibly cause a crash
+
+- Patched a Bug where UI won't be disabled after they have been selected when Updating Settings when updating Main Settings
+
+- Patched a Bug where Bot Logging Channel won't update the New Channel set using [ `/main update_settings` ]
+
+- Patched some Emojis that weren't loading due to them being Deleted, [ *They have been replaced by something better!* ]
+
+- Patched Ticket Message breaking when it can't find any Message itself
+
+- Patched where if the Data wasn't been able to send to TextChannel, it'd cause the whole thing to break
+
+- Fixed the Typo on on the Suggestion Embed sent in the Suggestion Channel and the colour of the Embed
+
+- Patched Issue where if the Bot Start Embed doesn't send, it'll break and not update the Bot Uptime and Restart it
+
+- Fixed small typo on [ `/support server_info` ] for Support Team
+
+- Patched Error Embeds when there's an invalid response to a command 
+
+- Patched a bug that broke [ `/main setup` ] for Configuring Custom Ticket Information
+
+- Fixed Ticket Information not deleting from the Database when it creates a transcript 
+
+- Patched Bug where if the Verification was partially configured, It'll break 
+
+- Fixed where User ID would be showed instead of User being mentioned *Most of what I could find*
+
+- Patched a Bug where if you cancel the Verification System Configuration using [ `/verification setup` ], It'll continue from where it started and Error out
+
+- Patched Error Message when using application commands not in a Server which wouldn't give a Response
+
+- Patched where the [ `/help` ] buttons wouldn't get disabled when they have been Timed Out leading to **Invalid Interaction**
+
+- Patched a Bug where  [ `/server_info` ] would show multiple times for some reason
+
+- Patched an important bug where if a Role is not found within the Server, the system would break and not work
+
+- Patched bugs where interaction failed while saving Server Settings for Verification and Main Configuration
+
+- Patched bug where Warning Embed won't send if commands are used in the Bots DMs
+
+- Patched  [ `/support server_info` ] showing unaccurate information about Server Perms
+
+
+### ***Contributions To AvTech Support***
+
+- @Felix™#2763 for Emoji Searches, Multiple Feature Request, Bug Reports and Importantly; helping out to test the Anti-Raid System multiple times 
+
+- @DustinFoes#7729 for Various Feature Requests for Premium Features and such
+
+- 
+
+------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.4[A]***
 
 ### **Bugs and Typos**
