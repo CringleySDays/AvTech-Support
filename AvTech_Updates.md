@@ -1,5 +1,16 @@
 
 ------------------------------------------------------------------------
+# ***AvTech Support Update Version 0.0.5[A]***
+
+### **Bugs and Typos**
+
+- Patched Bug where Certain Servers won't get the Developer Ping and Message if the Server Info has not been found
+
+- Patched Server Images not being added when Changing Verification Settings [ `Credits to @Felix™#2763`]
+
+-
+
+------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.5***
 
 ### **Features**
