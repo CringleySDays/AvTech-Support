@@ -1,8 +1,8 @@
-# ***AvTech Support User Agreement***
+# ***AvTech User Agreement***
 
-- User will have to give all the Permission the Bot asks for in order for it to work properly. Use [ `/bot_info` ] for more information
+- User will have to give all the Permission the Bot asks for in order for it to work properly. Use [ `/bot_info` ] | [ `/error_help` ] for more information
 
-- When AvTech Support joins the Server, it’ll collect the following Data it needs: Server ID to make a Dataset for that Server
+- When AvTech joins the Server, it’ll collect the following Data it needs: Server ID to make a Dataset for that Server
 
 - When you use [ `/main setup` ] , AvTech Support will gather Data that it only asks for which are Bot Logging Channel, Ticket Channel, Ticket Helper Role, Admin Role, Support Category (Optional), Custom Ticket Message (Optional). It’ll also save the message ID of the Ticket Embed message. It’ll create a category (if neeeded) and save the category ID in the Database.
 
