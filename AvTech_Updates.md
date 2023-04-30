@@ -1,3 +1,34 @@
+# ***AvTech Support Update Version 0.0.6
+
+### **Features**
+
+- Rewrote ticket system to be more efficient and reliable
+
+- New developer commands for making viewing system much more easier *Some Features yet to be finished*
+
+- Archived Category is available and Option to users now 
+
+- Improved performance for updating multiple data at once *No Idea why I didn't do it earlier*
+
+- Updated Prompts for Ticket Buttons to be up-to-date
+
+- Start Up Embed will show Bot resourecs usage 
+
+
+### **Bugs and Typos**
+
+- Patched Verification System from bugging out when time has ran out 
+
+- Patched Updating Category not working using [ `/ticket update_settings` ]
+
+- Patched Logging Embed not being sent when Ticket System is deleted
+
+
+### ***Notices***
+
+- I previously logs on what exactly was updated however because of my switching over to a different system, I permanenetly deleted the whole folder accidentally without transferring update log and got a fresh one. Because of this 0.0.6 update may look like it was a short update but I promise you, there was a lot of effort in this update.
+
+-
 
 ------------------------------------------------------------------------
 # ***AvTech Support Update Version 0.0.5[A]***
